@@ -1,0 +1,77 @@
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+@font-face {
+    font-family: MuseoSansRounded-300-webfont;
+    src: url(../fonts/museosansrounded_300/MuseoSansRounded-300-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-100-webfont;
+    src: url(../fonts/museosansrounded_100/MuseoSansRounded-100-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-700-webfont;
+    src: url(../fonts/museosansrounded_700/MuseoSansRounded-700-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-500-webfont;
+    src: url(../fonts/museosansrounded_500/MuseoSansRounded-500-webfont.ttf);
+}
+
+.hr {
+    margin-top: 15px;
+    text-align: center;
+}
+
+ul.mnu {
+    margin: 0;
+    padding: 5px 5px;
+}
+ul.mnu li {
+    padding: 5px 5px;
+    margin: 0 20px;
+    display: inline-block;
+    font-size: 16px;
+    list-style-type: none;
+}
+ul.mnu a {
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid grey;
+    padding: 5px 5px;
+}
+p {
+    text-align: center;
+}
+table {
+    text-align: left;
+    margin-top: 50px;
+    border: 1px solid grey;
+}
+table th {
+    padding: 5px;
+}
+table td {
+    padding: 5px;
+}
+.cat {
+    text-align: center;
+    margin-top: 35px;
+}
+.cat img {
+    width: 200px;
+    border-top: 2px solid grey;
+    margin-top: 20px;
+}

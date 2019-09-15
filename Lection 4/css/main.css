@@ -1,0 +1,54 @@
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+@font-face {
+    font-family: MuseoSansRounded-300-webfont;
+    src: url(../fonts/museosansrounded_300/MuseoSansRounded-300-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-100-webfont;
+    src: url(../fonts/museosansrounded_100/MuseoSansRounded-100-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-700-webfont;
+    src: url(../fonts/museosansrounded_700/MuseoSansRounded-700-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-500-webfont;
+    src: url(../fonts/museosansrounded_500/MuseoSansRounded-500-webfont.ttf);
+}
+
+.block1 {
+    border: 4px solid rgb(36, 211, 89);
+    margin-top: 15px;
+}
+.block2 {
+    margin: 5px 0px;
+    border: 4px solid red;
+    padding: 5px;
+}
+.block3 {
+    border: 4px solid blue;
+    height: 150px;
+    margin: 5px 15px;
+}
+.block4 {
+    border: 4px solid orange;
+    height: 65px;
+    margin: 5px;
+}
+.block5 {
+    border: 4px solid blue;
+    height: 50px;
+    margin: 5px 10px;

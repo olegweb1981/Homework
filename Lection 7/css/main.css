@@ -1,0 +1,56 @@
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+@font-face {
+    font-family: MuseoSansRounded-300-webfont;
+    src: url(../fonts/museosansrounded_300/MuseoSansRounded-300-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-100-webfont;
+    src: url(../fonts/museosansrounded_100/MuseoSansRounded-100-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-700-webfont;
+    src: url(../fonts/museosansrounded_700/MuseoSansRounded-700-webfont.ttf);
+}
+@font-face {
+    font-family: MuseoSansRounded-500-webfont;
+    src: url(../fonts/museosansrounded_500/MuseoSansRounded-500-webfont.ttf);
+}
+
+body {
+    background-color: rgb(233, 227, 219);
+}
+.centr {
+    background-color: white;
+    width: 700px;
+    height: 550px;
+    margin: 200px auto;
+}
+p {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.registry {
+    width: 500px;
+    margin: 0px auto;
+}
+.registry input {
+    border-radius: 5px;
+    color: black;
+    font-weight: normal;
+    font-size: 22px;
+    max-width: 40%;
+    margin-right: 20px;
+}
