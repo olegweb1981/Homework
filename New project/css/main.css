@@ -1,0 +1,120 @@
+html {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(236, 240, 240);
+}
+
+.homepage {
+    width: 1400px;
+    margin: 0px auto;
+}
+.header {
+    margin: 80px 0;
+    position: relative;
+}
+.logo img {
+    border-radius: 5px;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+.logo p {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(94, 92, 92);
+}
+.nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 5px;
+}
+.nav ul {
+    list-style: none;
+    padding-right: 0px;
+}
+.nav ul li {
+    float: left;
+    margin-left: 40px;
+}
+.nav ul li a {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(94, 92, 92);
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.top-block {
+    background-color: white;
+    vertical-align: middle;
+    padding-bottom: 15px;
+}
+.info {
+    margin: 50px 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+}
+.info2 {
+    margin: 50px 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+}
+.top-block h1 {
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(61, 59, 59);
+    margin: 15px 0;
+    text-align: center;
+}
+.top-block p {
+    font-size: 50px;
+    color: rgb(61, 59, 59);
+    margin: 0px;
+    padding-left: 100px;
+}
+.arrow {
+    width: 450px;
+    background-color: rgba(77, 192, 245, 0.932);
+    border-radius: 5px;
+    margin: 25px auto;
+    padding: 20px 25px;
+}
+.sign {
+    width: 450px;
+    background-color: rgb(214, 203, 203);
+    border-radius: 5px;
+    margin: 25px auto;
+    padding: 20px 25px;
+}
+.arrow a {
+    font-size: 50px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+.sign a {
+    font-size: 50px;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(61, 59, 59);
+}
+.arrow img, .sign img {
+    float: right;
+    padding-top: 10px;
+}
