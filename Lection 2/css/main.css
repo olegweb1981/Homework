@@ -72,6 +72,6 @@ table td {
 }
 .cat img {
     width: 200px;
-    border-top: 2px solid grey;
+    border-top: 2px solid rgb(36, 50, 168);
     margin-top: 20px;
 }
